@@ -1,0 +1,411 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+/*using global styling*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*the header container_gParent*/
+#gParent{
+    background-color: khaki;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+/*the a_tags within the navBar_orderMe*/
+a{
+    text-decoration: none;
+    color: black;
+}
+/*font propeties within the main section_firstContainer*/
+html{
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/*applying flexbox to the items on the right on the navBar_navLine*/
+#navLine{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  min-height: 9vh;
+  justify-content: space-between;
+}
+/*applying flexbox properties to the logo on the navBar_logo*/
+#navLine h2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 16rem;
+}
+/*color for h2 on the navBar_logo*/
+h2{
+    color: orangered;
+}
+/*applying flexbox properties to the middle list of items on the navBar_toy*/ 
+.toy{
+    display: flex;
+    margin: 0 10px;
+    flex-grow: 2;
+}
+/*applying flexbox properties to the middle list of items on the navBar_orderMe*/
+.orderMe{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 16rem;
+    list-style: none;
+}
+/*applying flexbox to the items on the right on the navBar_navLine2*/
+#navLine2{
+    display: flex;
+    flex: 1 1 16rem;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}
+/*applying flexbox properties to the items on the right on the navBar_orderMe2*/
+.orderMe2{
+    display: flex;
+    flex-grow: 1;
+    gap: 1rem;
+    list-style: none;
+    flex-shrink: 1;
+    flex-basis: 16rem;
+}
+/*applying properties to button items_button*/
+button{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px;
+}
+/*applying padding to the sign in item on the navBar_mr*/
+.mr{
+    padding: 10px;
+}
+/*the main container of the main section_mainContainer*/
+#mainContainer{
+    padding-bottom: 5rem;
+    min-height: 85vh;
+    width: 100%;
+    background-color: ghostwhite;
+}
+/*applying properties to the 1st section of the main section_firstContainer*/
+.firstContainer{
+    width: 90%;
+    margin: auto;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+}
+/*applying properties to the 2nd section of the main section_secondContainer*/
+.secondContainer{
+    width: 90%;
+    margin: auto;
+    min-height: 45vh;
+}
+/*applying font properties h1tag_firstContainer*/ 
+.firstContainer h1{
+    font-size: 120px;
+    text-align: center;
+    line-height: 115px;
+}
+/*applying font properties h1tag within the span_firstContainer*/
+.firstContainer h1 span{
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+  color: orangered;
+}
+/*applying flexbox_secondContainer & fontSize to p_tags*/
+.secondContainer{
+    display: flex;
+    flex-wrap: wrap;
+    p{
+        font-size: 12px;
+    }
+}
+/*applying flexbox and image properties_secondFirst*/
+.secondFirst{
+    flex: 1 1 16rem;
+    img{
+        width: 80%;
+        height: 250px;
+    }
+}
+/*applying flexbox and other properties to h3 & p tags_secondDiv*/
+.secondDiv{
+    flex: 1 1 16rem;
+    padding: 1rem 3rem;
+    background-color: white;
+    border-radius: 2px;
+    height: 220px;
+    h3{
+        padding-top: 0.5rem;
+    }
+    p{
+        padding: 0.5 0rem;
+    }
+}
+/*applying flexbox and other properties to button & p tags_thirdDiv*/
+.thirdDiv{
+    flex: 1 1 16rem;
+    padding-left: 2rem;
+    button{
+        padding: 1rem 3rem;
+    }
+    p{
+        padding-bottom: 2rem;
+    }
+}
+/*applying flexbox and other properties to the card section of the main section_mainCard*/
+#mainCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 1rem 0rem;
+    min-height: 45vh;
+}
+/*apllying flexbox_subDiv1*/
+.subDiv1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+/*applying flexbox_cardDiv*/
+.cardDiv{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+}
+/*applying flexbox and other properties to h1, h3, p, hr, h4 & span_card*/
+.card{
+    flex: 1 1 16rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);
+    border-radius: 4px;
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    p{
+        font-size: 11px;
+        padding: 0.5rem 0rem;
+    }
+    hr{
+        margin-bottom: 1rem;
+    }
+    h4{
+        margin-bottom: -0.5rem;
+        font-size: 11px;
+    }
+    span{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i{
+            font-size: 22px;
+        }
+    }
+}
+/*applying properties_card1*/
+.card1{
+    background-color: orangered;
+    color: white;
+    transition: all 1s ease;
+    h4{
+        color: black;
+    }
+}
+/*applying properties_card2*/
+.card2{
+    background-color: khaki;
+    transition: all 1s ease;
+    h4{
+        color: green;
+    }
+}
+/*applying properties_card3*/
+.card3{
+    background-color: black;
+    transition: all 1s ease;
+    color: white;
+    h4{
+        color: yellow;
+    }
+}
+/*applying properties_card4*/
+.card4{
+    background-color: whitesmoke;
+    transition: all 1s ease;
+    h4{
+        color: orangered;
+    }
+}
+.hrContainer{
+    width: 100%;
+    margin-top: 2.5rem;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+/*applying flexbox and other properties_subDiv2*/
+.subDiv2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    i{
+        font-size: 22px;
+    }
+}
+/*applying flexbox and other properties_subDiv2list*/
+.subDiv2list{
+    margin-left: -2.5rem;
+    display: flex; 
+    list-style: none;
+    gap: 2rem;
+    i{
+        font-size: 10px;
+    }
+}
+/*hover effects on cards*/
+.card1:hover{
+    transform: scale(1.02);
+    opacity: 0.5;
+   
+}
+.card2:hover{
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.card3:hover{
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+.card4:hover{
+    transform: scale(1.02);
+    opacity: 0.5;
+}
+/*
+css styling for the footer
+*/
+footer{
+    background-color: khaki;
+}
+#mainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 2.5rem 0rem 3rem 0rem;
+    min-height: 45vh;
+    ol{
+        list-style: none;
+    }
+}
+.contentDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+.listDiv{
+    flex: 1 1 16rem;
+    h1{
+        font-size: 20px;
+        padding-bottom: 0.5rem;
+    }
+
+}
+.odd{
+    padding: 0px;
+    display: flex;
+    padding: 0px;
+    gap: 3px;
+    li{
+        padding: 2.5px 5px 2.5px 0px;
+    }
+}
+.listMe3{
+    flex: 1 1 16rem;
+    ol{
+        display: flex;
+        font-size: 30px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    i{
+        flex: 1 1 5rem;
+        
+    }
+}
+.listMe2{
+    flex: 2 1 16rem;
+    justify-content: center;
+}
+.listMe1{
+    flex: 2 1 16rem;
+    ol{
+        padding-left: 0rem;
+    }
+    li{
+        padding: 0rem 0rem 0.4rem 0rem;
+    }
+}
+.lastDiv{
+    padding-top: 1rem;
+    ol{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+/*
+    mobile responsiveness
+    with media query
+*/
+/*tablet screen size*/
+@media (max-width:821px){
+    #navLine h2{
+        text-align: center;
+    }
+    #mainDiv{
+        min-height: 25vh;
+    }
+}
+
+/*oppo a9 screen size*/
+@media(max-width:400px){
+    .firstContainer{
+        h1{
+            font-size: 57px;
+            line-height: 65px;
+        }
+    }
+    #navLine2{
+        justify-content: center;
+        padding: 0.5rem;
+    }
+    .secondContainer{
+        padding-bottom: 2rem;
+        gap: 1rem;
+    }
+    .thirdDiv{
+        p{
+            padding: 0rem 0rem 0.5rem 0rem;
+        }
+    }
+    #mainContainer{
+        padding-bottom: 1rem;
+    }
+}

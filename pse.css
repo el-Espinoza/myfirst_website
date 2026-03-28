@@ -1,0 +1,134 @@
+/*The universal cssstyling method*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#head{
+    background-color: aquamarine;
+}
+#navBar{
+    border: 2px solid yellow;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 10vh;
+    justify-content: space-between;
+}
+.navBardiv1{
+    border: 2px solid gold;
+    align-items: center;
+    flex: 1 1 16rem;
+    display: flex;
+}
+.navBarList1{
+    border: 2px solid blue;
+    list-style: none;
+    flex: 1 1 16rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navBarDiv2{
+    border: 2px solid red;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 16rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#mainSection{
+    background-color: ivory;
+}
+
+.mainSectionDiv1{
+    padding-top: 3rem;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: column wrap;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    line-height: 3rem;
+}
+.mainSectionDiv2{
+    padding-top: 2.5rem;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.mainSectionDiv21{
+    border: 2px solid green;
+    flex: 1 1 16rem;
+    text-align: center;
+    align-content: center;
+    line-height: 2rem;
+}
+.mainSectionDiv22{
+    border: 2px solid blueviolet;
+
+}
+.mainSectionDiv23{
+    border: 2px solid black;
+    flex: 1 1 16rem;
+    text-align: center;
+    align-content: center;
+    line-height: 2rem;
+}
+.mainSectionDiv3{
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+.hSpn{
+    text-align: center;
+    padding-top: 3rem;
+}
+.mainSectionDiv31{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3rem;
+    gap: 1rem;
+    h3{
+        text-align: center;
+    }
+}
+.div311{
+    border: 1px groove black;
+    background-color: chartreuse;
+}
+.div312{
+    border: 1px groove black;
+    background-color: orange;
+}
+.div313{
+    border: 1px groove black;
+    background-color: white;
+}
+.div314{
+    border: 1px groove black;
+    background-color: red;
+}
+@media (max-width:414px){
+    .navBarDiv2{
+        justify-content: start;
+    }
+    .mainSectionDiv1{
+        align-items: start;
+        h1{
+            font-size: 90%;
+        }
+    }
+}

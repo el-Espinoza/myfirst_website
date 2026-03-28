@@ -1,0 +1,133 @@
+/*using global styling_css*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bb{
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: rgba(40, 96, 186, 0.934);
+}
+/*applying flex on the navBar_navHead*/
+#gHead{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 255, 0.651);
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-image: url(./images/seo1.webp);
+    color: white;
+    border-radius: 20px;
+    margin: 1rem;
+}
+#navBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    min-height: 10vh;
+    align-items: center; 
+    border: solid 3px black;
+}
+.navHeadLogo{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 16rem;
+    align-items: center;
+    gap: 0.5rem;
+    color: orange;
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 16rem;
+    justify-content: space-between;
+    list-style: none;
+}
+.blg{
+    color: orange;
+}
+.navHeadList2{
+    display: flex;
+    flex: 1 1 16rem;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    button{
+        background-color: blue;
+        padding: 0.2rem 0.5rem;
+        color: white;
+        border-radius: 11px;
+        border: solid white 2px;
+    }
+}
+.navHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+    h2{
+        font-size: 50px;
+    }
+
+}
+main{
+    
+}
+#mnContainner{
+    min-height: 83vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.mnImage1{
+    flex-wrap: wrap;
+    flex: 1 1 16rem;
+    img{
+        border: solid 3px black;
+        border-radius: 15px;
+    } 
+}
+.mnHp{
+    flex: 1 1 8rem;
+    justify-content: space-between;
+    justify-content: end;
+    margin-top: 2rem;
+    button{
+        background-color: powderblue;
+        gap: 2rem;
+    }
+    p{
+        padding-top: 1rem;
+        line-height: 1.5rem;
+    }
+}
+.bbt{
+    padding-bottom: 1.5rem;
+}
+.mnSpH{
+    display: flex;
+    padding-top: 1.5rem;
+    gap: 2rem;
+    p::first-line{
+        color: black;
+    }
+}
+
+
+
