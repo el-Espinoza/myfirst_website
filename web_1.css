@@ -410,3 +410,12 @@ footer{
         padding-bottom: 1rem;
     }
 }
+@media(max-width:820){
+    #navLine2{
+        justify-content: center;
+    }
+    .firstContainer{
+        font-size: 4rem;
+        padding: 0rem 1rem;
+    }
+}
