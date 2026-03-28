@@ -114,7 +114,7 @@ button{
 }
 /*applying font properties h1tag_firstContainer*/ 
 .firstContainer h1{
-    font-size: 120px;
+    font-size: 7rem;
     text-align: center;
     line-height: 115px;
 }
