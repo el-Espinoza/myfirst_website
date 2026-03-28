@@ -390,9 +390,12 @@ footer{
 
 /*oppo a9 screen size*/
 @media(max-width:390px){
+    .orderMe{
+        gap: 0.8rem;
+    }  
     .firstContainer{
         h1{
-            font-size: 3.8rem;
+            font-size: 3.5rem;
             line-height: 65px;
             padding: 0rem 1rem;
         }
