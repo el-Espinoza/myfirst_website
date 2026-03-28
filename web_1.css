@@ -417,4 +417,13 @@ footer{
         padding-bottom: 1rem;
     }
 }
-@media(max-width:820)
+@media(max-width:414px){
+    .orderMe{
+        gap: 0.8rem;
+    }
+    .firstContainer{
+        h1{
+             font-size: 3rem;
+        }
+    }
+}
