@@ -388,8 +388,9 @@ footer{
 @media(max-width:400px){
     .firstContainer{
         h1{
-            font-size: 57px;
+            font-size: 4rem;
             line-height: 65px;
+            padding: 0rem 1rem;
         }
     }
     #navLine2{
